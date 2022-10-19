@@ -35,7 +35,7 @@ player.on('trackAdd', (queue, track) => {
 });
 
 player.on('botDisconnect', queue => {
-  queue.metadata.send('❌ | Бях ръчно искатан от разгожора, Изчистване на опашка!');
+  queue.metadata.send('❌ | Бях ръчно изкаран от разговора.');
 });
 
 player.on('channelEmpty', queue => {
